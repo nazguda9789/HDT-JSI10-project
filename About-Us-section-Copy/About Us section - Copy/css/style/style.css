@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+.about-1 h1{
+    text-align: center;
+    color: rgb(255, 255, 0);
+    font-weight: bold;
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: rgb(158, 197, 0);
+}
+
+/*===========================
+ adding style to about items 
+============================*/
+
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(147, 147, 147);
+    padding: 80px 30px;
+    box-shadow: 3px 3px 3px rgb(204, 255, 0);
+}
+
+/*======================================
+adding style to the icons(book,globe,pencil)
+=========================================*/
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+
+/*======================================
+adding style to h3(heading 3) of each item 
+=========================================*/
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/*======================================
+styling the hr (the blue line in between)
+=========================================*/
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #d8f95f;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+}
+
+/*========================================
+hover means when you put your cursor over it
+=========================================*/
+.about-item:hover{
+    background-color: #d8f95f;
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: #fff;
+}
+
+/*==============================================================================
+translate Y: move along the Y axis, negative(-20) moves it up, while positive(20) moves in down by  
+================================================================================*/
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
+
+footer{
+    background: #212226;
+    padding: 20px;
+}
+footer p{
+    color: rgb(246, 255, 0);
+}
+
+/*================================================================================
+if you manage it to this far, congratulations, check more on https://devhubke.com
+=================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
